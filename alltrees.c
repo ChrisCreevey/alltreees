@@ -8,7 +8,7 @@ void totext(int c, char *array);
 char inttotext(int c);
 int texttoint(char c);
 
-int num_of_taxa = 6;
+int num_of_taxa = 6;  /* <<-- Change the number on this line to change the size of the trees to be generated */
 
 
 
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
     /* this function builds a tree given its number and the number of taxa */
 void intToTree(int tree_num, char *array)
     {
-        
+
     int *path = NULL, i = 0, j=0, k=0, l=0, min = 0, max = 1, oldmin = 0, exit = 0, bracket_count = 0;
     char tmparray[10000], *string= NULL;
 
