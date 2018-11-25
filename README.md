@@ -10,7 +10,7 @@ On Line 11 you can define the size of the trees that you want to generate.
 To compile the software use the command:  
 
 ```
-cc alltrees.c -o alltrees -lm”
+cc alltrees.c -o alltrees -lm
 ```
 
 To run, just use the command 
